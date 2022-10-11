@@ -16,6 +16,19 @@ body {
   background-size: cover;
   background-position: left;
 }
+/* Layout */
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  height: 100vh;
+}
 
 /* footer */
 
@@ -31,7 +44,6 @@ body {
 .fa {
   padding: 20px;
   font-size: 40px;
-  /* width: 60px; */
   text-decoration: none;
   margin: 5px 8px;
   border-radius: 50%;
