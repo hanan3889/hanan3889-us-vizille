@@ -61,3 +61,7 @@ body {
   background: #125688;
   color: white;
 }
+p {
+  margin: 50px;
+  padding: 50px;
+}
