@@ -1,3 +1,6 @@
+@import "bootsrap";
+$dark: #e82e9b;
+
 *,
 ::before,
 ::after {
