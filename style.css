@@ -1,6 +1,3 @@
-@import "bootsrap";
-$dark: #e82e9b;
-
 *,
 ::before,
 ::after {
@@ -33,6 +30,19 @@ body {
   height: 100vh;
 }
 
+.container-text {
+  display: grid;
+  place-items: center;
+}
+
+#don {
+  margin: 50px;
+  border-radius: 30px;
+}
+#don a {
+  text-decoration: none;
+  color: black;
+}
 /* footer */
 
 .footer .footer {
@@ -64,7 +74,3 @@ body {
   background: #125688;
   color: white;
 }
-/* p {
-  margin: 50px;
-  padding: 50px;
-} */
