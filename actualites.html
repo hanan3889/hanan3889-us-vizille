@@ -70,40 +70,72 @@
         la parole, parlons du dépistage et soutenons la lutte contre le cancer
         du sein. #HautLesSeins
       </p>
-      <img
-        src="img/octobrerose.jpg"
-        class="img-fluid rounded my-4"
-        width="300"
-        height="300"
-      />
-      <button type="button" class="btn btn-outline-dark center">
-        Je fais un don
-      </button>
 
-      <section class="section-subscribe bg-light my-4">
-        <!--Footer-->
-        <footer class="site-footer">
+      <div class="container-text">
+        <img
+          src="img/octobrerose.jpg"
+          class="img-fluid rounded my-4"
+          width="300"
+          height="300"
+          id="october"
+        />
+        <button
+          type="button"
+          class="list-group-item list-group-item-danger"
+          aria-current="true"
+          id="don"
+        >
+          <a
+            href="https://don.ligue-cancer.net/octobrerose22/~mon-don?_ga=2.250993286.1838115145.1665612537-379715841.1665612537"
+            target="_blank"
+            >Je fais un don</a
+          >
+        </button>
+      </div>
+
+       <section class="section-subscribe bg-light my-4">
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <h1 class="heading my-3">Restez informés !</h1>
+          </div>
+
+          <div class="col-md-12 my-3">
+            <form action="" method="POST">
+              <div class="row">
+                <div class="col-md-4 mb-4">
+                  <input type="text" class="form-control" placeholder="Votre Nom">
+                </div>
+
+                <div class="col-md-4 mb-4">
+                  <input type="text" class="form-control" placeholder="Votre Email">  
+                </div>
+
+                <div class="col-md-4 mb-4">
+                  <input type="submit" class="btn btn-secondary w-100" value="Envoyer">  
+                </div>
+              </div>
+            </form>
+        </div>
+
+        <footer class="site-footer"><!--Footer-->
           <div class="container">
             <div class="row mb-5">
               <div class="col-md-3 mb-5">
                 <h2>A propos</h2>
-                <p>Lorem ipsum dolor sit amet.</p>
+                  <p>Lorem ipsum dolor sit amet.</p>
               </div>
 
               <div class="col-md-3 mb-5">
                 <h2>Contact</h2>
                 <ul class="list-unstyled footer-link">
                   <li class="d-flex">
-                    <span class="me-3">Adresse:</span
-                    ><span>30 rue du Général De Gaulle38220, Vizille</span>
+                    <span class="me-3">Adresse:</span><span>30 rue du Général De Gaulle38220, Vizille</span> 
                   </li>
                   <li class="d-flex">
-                    <span class="me-3">Téléphone:</span
-                    ><span>04 76 00 00 00</span>
+                    <span class="me-3">Téléphone:</span><span>04 76 00 00 00</span>
                   </li>
                   <li class="d-flex">
-                    <span class="me-3">Email:</span
-                    ><span>email@example.com</span>
+                    <span class="me-3">Email:</span><span>email@example.com</span>
                   </li>
                 </ul>
               </div>
@@ -111,11 +143,7 @@
               <div class="col-md-3 mb-5">
                 <h2>Liens utiles</h2>
                 <ul class="list-unstyled footer-link">
-                  <li>
-                    <a href="https://www.ville-vizille.fr/VILLE_VIZILLE_WEB/fr/"
-                      >Ville-de-vizille</a
-                    >
-                  </li>
+                  <li><a href="https://www.ville-vizille.fr/VILLE_VIZILLE_WEB/fr/">Ville-de-vizille</a></li>
                   <li><a href="https://www.lnh.fr/">Ligue de handball</a></li>
                   <li><a href="https://www.ffhandball.fr/">FFH</a></li>
                 </ul>
@@ -124,27 +152,21 @@
               <div class="col-md-3">
                 <h2>Nos réseaux sociaux</h2>
                 <ul class="list-unstyled footer-link d-flex">
-                  <li>
-                    <a href="https://www.facebook.com/"
-                      ><span class="fa fa-facebook"></span
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/"
-                      ><span class="fa fa-instagram"></span
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com//"
-                      ><span class="fa fa-twitter"></span
-                    ></a>
-                  </li>
+                  <li><a href="https://www.facebook.com/"><span class="fa fa-facebook"></span></a></li>
+                  <li><a href="https://www.instagram.com/"><span class="fa fa-instagram"></span></a></li>
+                  <li><a href="https://twitter.com//"><span class="fa fa-twitter"></span></a></li>
                 </ul>
               </div>
             </div>
           </div>
+  
         </footer>
       </section>
+
+    
     </main>
+
+
+    <script src="app.js"></script>
   </body>
 </html>
